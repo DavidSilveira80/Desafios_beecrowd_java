@@ -1,4 +1,4 @@
-package desafios_iniciante;
+package estruturado;
 
 public class HelloWorld {
 
