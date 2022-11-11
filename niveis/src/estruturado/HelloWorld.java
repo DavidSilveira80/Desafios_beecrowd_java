@@ -2,7 +2,7 @@ package estruturado;
 
 public class HelloWorld {
 	public static String hello() {
-	    return "Hello World!";
+	    return "Hello World Java!";
 	}
 
 	public static void main(String[] args) {

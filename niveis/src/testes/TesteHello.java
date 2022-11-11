@@ -7,7 +7,7 @@ class TesteHello {
 
 	@Test
 	void hello_world() {
-		Assertions.assertEquals("Hello World!", HelloWorld.hello());
+		Assertions.assertEquals("Hello World Java!", HelloWorld.hello());
 		
 	}
 
