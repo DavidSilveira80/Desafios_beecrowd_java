@@ -23,6 +23,24 @@ Exemplo de Entrada               Exemplo de Saída
 
  */
 
+import java.util.Scanner;
 
 public class TesteDeSelecao {
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+        String[] entrada_numeros = entrada.nextLine().split(" ");
+
+        int A = Integer.parseInt(entrada_numeros[0]);
+        int B = Integer.parseInt(entrada_numeros[1]);
+        int C = Integer.parseInt(entrada_numeros[2]);
+        int D = Integer.parseInt(entrada_numeros[3]);
+
+        if(B > C && D > A && (C + D) > (A + B) && C > 0 && D > 0 && A % 2 == 0 ){
+            System.out.println("Valores aceitos");
+        }else{
+            System.out.println("Valores nao aceitos");
+        }
+
+    }
 }
