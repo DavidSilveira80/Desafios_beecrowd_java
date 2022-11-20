@@ -36,9 +36,27 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class SalarioComBonus {
-    public static void main(String[] args){
-        // Aqui vai o código do desafio
-        System.out.println("SALÁRIO");
+    public static double calculo_salario_bonus(double salx, double vendas){
+        double comissao = vendas * 0.15;
+        double salario_mais_comissao = salx + comissao;
+        return salario_mais_comissao;
+    }
 
+    public static String saida_salario_bonus(double sal_bonus){
+        Locale.setDefault(Locale.US);
+        String saida = String.format("TOTAL = R$ %.2f", sal_bonus);
+        return saida;
+    }
+    public static void main(String[] args){
+
+        Locale.setDefault(Locale.US);
+        Scanner entrada = new Scanner(System.in);
+
+        String nome = entrada.nextLine();
+        double salario_fixo = entrada.nextDouble();
+        double vendas_efetuadas_dinheiro = entrada.nextDouble();
+
+        double salario_com_bonus = calculo_salario_bonus(salario_fixo, vendas_efetuadas_dinheiro);
+        System.out.println(saida_salario_bonus(salario_com_bonus));
     }
 }
