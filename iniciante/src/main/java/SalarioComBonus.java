@@ -37,6 +37,8 @@ import java.util.Scanner;
 
 public class SalarioComBonus {
     public static void main(String[] args){
+        // Aqui vai o código do desafio
+        System.out.println("SALÁRIO");
 
     }
 }
