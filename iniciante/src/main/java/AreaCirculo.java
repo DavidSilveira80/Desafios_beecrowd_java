@@ -18,6 +18,7 @@ public class AreaCirculo {
         Scanner entrada = new Scanner(System.in);
         double r = entrada.nextDouble();
 
+        // Imprime no terminal a saída formatada
         System.out.println(saida_area_circulo(r));
     }
 }
