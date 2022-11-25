@@ -13,6 +13,6 @@ public class Consumo {
 
         double calculoConsumo = distancia / combustivelGasto;
 
-        System.out.printf("%.3f Km/l\n", calculoConsumo);
+        System.out.printf("%.3f km/l\n", calculoConsumo);
     }
 }
