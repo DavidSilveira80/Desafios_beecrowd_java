@@ -2,10 +2,10 @@ import iniciante.AreaCirculo;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
-public class AreaCirculoTest {
+public class TestAreaCirculo {
     AreaCirculo area = new AreaCirculo();
     @Test
-    void area_calc_circulo(){
+    void test_area_calc_circulo(){
 
         Assertions.assertEquals(12.56636, area.area_calculo(2.00));
 
