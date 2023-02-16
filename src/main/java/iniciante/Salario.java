@@ -1,4 +1,4 @@
-/*
+package iniciante;/*
                                       beecrowd | 1008
                                          Salário
                          Adaptado por Neilor Tonin, URI  Brasil

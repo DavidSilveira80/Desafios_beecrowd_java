@@ -1,3 +1,4 @@
+package iniciante;
 /*
                                         beecrowd | 1007
                                          Diferença

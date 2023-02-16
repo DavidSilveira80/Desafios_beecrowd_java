@@ -1,10 +1,12 @@
+import iniciante.QuadrantesDeUmPonto;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
+
 
 public class CoordenadasDeUmPontoTest {
     @Test
     void testeCoordenadaOrigem() {
-        Assertions.assertEquals("Origem", QuadrantesDeUmPonto.quadranteCoordenada(0, 0));
+        Assertions.assertEquals("rigem", QuadrantesDeUmPonto.quadranteCoordenada(0, 0));
     }
     @Test
     void testeCoordenadaEixoY1(){

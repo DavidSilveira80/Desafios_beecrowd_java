@@ -1,4 +1,4 @@
-//beecrowd-Iniciante-1041-Coordenadas de um Ponto
+package iniciante;//beecrowd-Iniciante-1041-Coordenadas de um Ponto
 //https://www.beecrowd.com.br/judge/pt/problems/view/1041
 
 import java.util.Scanner;

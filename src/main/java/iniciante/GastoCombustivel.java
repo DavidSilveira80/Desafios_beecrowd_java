@@ -1,4 +1,4 @@
-//beecrowd-Iniciante-1017-Gasto Combustivel
+package iniciante;//beecrowd-Iniciante-1017-Gasto Combustivel
 
 import java.util.Scanner;
 import java.util.Locale;

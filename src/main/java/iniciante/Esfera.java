@@ -1,4 +1,4 @@
-//beecrowd-Iniciante-1011-Esfera
+package iniciante;//beecrowd-Iniciante-1011-Esfera
 //https://www.beecrowd.com.br/judge/pt/problems/view/1011
 
 import java.util.Locale;

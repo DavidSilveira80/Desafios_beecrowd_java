@@ -1,4 +1,4 @@
-/*
+package iniciante;/*
                                          beecrowd | 1006
                                              Média 2
                               Adaptado por Neilor Tonin, URI  Brasil

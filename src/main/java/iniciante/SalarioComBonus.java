@@ -1,4 +1,4 @@
-/*
+package iniciante;/*
                                   beecrowd | 1009
                                  Salário com Bônus
                          Adaptado por Neilor Tonin, URI  Brasil
