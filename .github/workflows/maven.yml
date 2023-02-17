@@ -31,5 +31,5 @@ jobs:
       run: mvn -B package --file pom.xml
     
     - name: Run tests with JUnit
-      run: mvn test  
+      run: mvn clean compile test
 
